@@ -1,0 +1,23 @@
+:root{
+    --rich-black: hsla(216, 100%, 4%, 1);
+    --oxford-blue: hsla(211, 100%, 12%, 1);
+    --yale-blue: hsla(209, 100%, 20%, 1);
+    --mikado-yellow: hsla(46, 100%, 50%, 1);
+    --gold: hsla(50, 100%, 52%, 1);
+
+    --seasalt: hsla(210, 17%, 98%, 1);
+    --antiflash-white: hsla(210, 16%, 93%, 1);
+    --platinum: hsla(210, 14%, 89%, 1);
+    --french-gray: hsla(210, 14%, 83%, 1);
+    --french-gray-2: hsla(210, 11%, 71%, 1);
+    --slate-gray: hsla(208, 7%, 46%, 1);
+    --outer-space: hsla(210, 9%, 31%, 1);
+    --onyx: hsla(210, 10%, 23%, 1);
+    --eerie-black: hsla(210, 11%, 15%, 1);
+}
+
+#root {
+    width: min(85%,960px);
+    color: var(--seasalt);
+    background-color: var(--eerie-black);
+}
