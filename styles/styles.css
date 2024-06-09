@@ -21,3 +21,28 @@
     color: var(--seasalt);
     background-color: var(--eerie-black);
 }
+
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    display:flex;
+}
+
+form div {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 1rem;
+}
