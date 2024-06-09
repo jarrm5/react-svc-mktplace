@@ -9,11 +9,11 @@ const services = [
   },
 ];
 
-export default function SearchResult() {
+export default function SearchResult(props) {
+  const { search } = props;
   return (
     <ul>
-      <li>foo</li>
-      <li>bar</li>
+      <li>{services.filter((obj) => obj.company.search(search) > 0)}</li>
     </ul>
   );
 }
