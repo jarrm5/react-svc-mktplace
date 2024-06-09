@@ -18,6 +18,7 @@
 
 #root {
     width: min(85%,960px);
+    min-width: 481px;
     color: var(--seasalt);
     background-color: var(--eerie-black);
 }
@@ -36,13 +37,16 @@ ul {
     list-style-type: none;
 }
 
-form {
+/* Utility */
+.flex-column-center-gap {
     display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
 }
+
+/* Elements */
 
 form div {
     display:flex;
-    flex-direction:column;
-    align-items: center;
-    gap: 1rem;
 }
